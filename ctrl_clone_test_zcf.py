@@ -61,7 +61,7 @@ def mirror_session(mir_type, mir_dir, sid, egr_port=0, egr_port_v=False,
 
 class L2Test(pd_base_tests.ThriftInterfaceDataPlane):
     def __init__(self):
-        pd_base_tests.ThriftInterfaceDataPlane.__init__(self, ["clone_test_zcf"])        ### 
+        pd_base_tests.ThriftInterfaceDataPlane.__init__(self, ["clone_test_zcf"])        ###
 
     # The setUp() method is used to prepare the test fixture. Typically
     # you would use it to establich connection to the Thrift server.
